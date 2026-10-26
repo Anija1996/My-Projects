@@ -1,0 +1,554 @@
+.profile-page {
+    min-height: calc(100vh - 80px);
+    background: #fff;
+    color: #111;
+    padding: 92px 8.5% 100px;
+}
+
+.profile-desktop-header {
+    margin-bottom: 48px;
+}
+
+.profile-desktop-header h1 {
+    margin: 0 0 14px;
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.profile-desktop-header p {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    color: #555;
+}
+
+.profile-layout {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 98px;
+}
+
+.profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.profile-sidebar-link {
+    width: fit-content;
+    padding: 0 0 14px;
+    margin-bottom: 28px;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    color: #555;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.profile-sidebar-link:first-child {
+    color: #555;
+}
+
+.profile-sidebar-link.active {
+    color: #111;
+    border-bottom-color: #111;
+}
+
+.profile-signout {
+    color: #888;
+}
+
+.profile-main {
+    min-width: 0;
+}
+
+.profile-order-section {
+    width: 100%;
+}
+
+.profile-order-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 38px;
+}
+
+.profile-order-heading h2 {
+    margin: 0;
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.profile-order-heading span {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.profile-orders {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.profile-order-card {
+    min-height: 228px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.profile-order-image {
+    width: 150px;
+    min-width: 150px;
+    height: 188px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.profile-order-image div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        #eeeeee 0%,
+        #eeeeee 48%,
+        #d7d7d7 49%,
+        #d7d7d7 58%,
+        #bdbdbd 59%,
+        #bdbdbd 100%
+    );
+}
+
+.profile-order-details {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-order-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-order-top h3 {
+    margin: 4px 0 10px;
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.profile-order-top p {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-order-top > strong {
+    padding-top: 4px;
+    white-space: nowrap;
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.profile-order-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.profile-order-bottom span {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.profile-order-bottom button {
+    min-width: 157px;
+    height: 38px;
+    border: 1px solid #111;
+    background: #fff;
+    color: #111;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.profile-mobile-header,
+.profile-mobile-user,
+.profile-mobile-menu,
+.profile-mobile-recent {
+    display: none;
+}
+
+.profile-guest {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-guest h1 {
+    font-family: "Liberation Serif", "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.profile-guest p {
+    color: #555;
+}
+
+.invoice-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px;
+    background: #fff;
+    border: 1px solid #e7e5e4;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.invoice-header h2 {
+    margin: 0 0 8px;
+    font-family: "Liberation Serif", "Noto Serif", serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.invoice-header p {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.invoice-order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    font-size: 13px;
+}
+
+.invoice-order-info strong {
+    font-size: 14px;
+}
+
+.invoice-order-info span {
+    color: #666;
+}
+
+.invoice-divider {
+    width: 100%;
+    height: 1px;
+    margin: 32px 0;
+    background: #e7e5e4;
+}
+
+.invoice-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e5e4;
+}
+
+.invoice-item:first-child {
+    padding-top: 0;
+}
+
+.invoice-item:last-child {
+    border-bottom: 0;
+}
+
+.invoice-item-image {
+    width: 100px;
+    height: 120px;
+    flex-shrink: 0;
+    background: #f5f5f4;
+    overflow: hidden;
+}
+
+.invoice-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.invoice-item-details {
+    flex: 1;
+}
+
+.invoice-item-details h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.invoice-item-details p {
+    margin: 4px 0;
+    color: #666;
+    font-size: 13px;
+}
+
+.invoice-item-price {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.invoice-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.invoice-total strong {
+    font-size: 18px;
+}
+
+.invoice-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+@media (max-width: 767px) {
+    .profile-page {
+        min-height: 100vh;
+        padding: 0 0 50px;
+    }
+
+    .profile-desktop-header,
+    .profile-sidebar,
+    .profile-order-section {
+        display: none;
+    }
+
+    .profile-mobile-header {
+        height: 86px;
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        padding: 0 24px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .profile-mobile-header h1 {
+        margin: 0;
+        font-family: "Liberation Serif", "Times New Roman", serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .profile-back-button {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: #111;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .profile-mobile-user {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        padding: 24px;
+    }
+
+    .profile-avatar {
+        width: 94px;
+        height: 94px;
+        min-width: 94px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 14px;
+        background: #e5e5e5;
+        color: #555;
+    }
+
+    .profile-avatar .material-symbols-outlined {
+        font-size: 40px;
+    }
+
+    .profile-mobile-user h2 {
+        margin: 0 0 10px;
+        font-family: "Liberation Serif", "Times New Roman", serif;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .profile-mobile-user p {
+        margin: 0;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .profile-layout {
+        display: block;
+    }
+
+    .profile-main {
+        width: 100%;
+    }
+
+    .profile-mobile-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px 24px 0;
+    }
+
+    .profile-menu-card {
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 0 18px;
+        border: 1px solid #ddd;
+        color: #222;
+        text-decoration: none;
+        font-family: Inter, sans-serif;
+    }
+
+    .profile-menu-card.active {
+        border-color: #222;
+    }
+
+    .profile-menu-card .material-symbols-outlined {
+        font-size: 27px;
+    }
+
+    .profile-menu-card strong {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        font-weight: 600;
+    }
+
+    .profile-menu-arrow {
+        margin-left: auto;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1;
+    }
+
+    .profile-mobile-recent {
+        display: block;
+        padding: 92px 24px 0;
+    }
+
+    .profile-mobile-recent h2 {
+        margin: 0 0 18px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ddd;
+        font-family: "Liberation Serif", "Times New Roman", serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .profile-recent-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-recent-order {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .profile-recent-image {
+        width: 96px;
+        height: 92px;
+        min-width: 96px;
+        background: #e8e8e8;
+    }
+
+    .profile-recent-info {
+        min-width: 0;
+        flex: 1;
+    }
+
+    .profile-recent-info strong {
+        display: block;
+        margin-bottom: 8px;
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: #555;
+    }
+
+    .profile-recent-info p {
+        margin: 0;
+        font-family: "Liberation Serif", "Times New Roman", serif;
+        font-size: 18px;
+    }
+
+    .profile-status {
+        padding: 7px 10px;
+        background: #e5e5e5;
+        color: #555;
+        font-family: Inter, sans-serif;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .profile-guest {
+        padding: 40px 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile-page {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}

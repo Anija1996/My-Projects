@@ -1,0 +1,456 @@
+[
+  {
+    "id": 1,
+    "name": "Structured Linen Blazer",
+    "price": 495.0,
+    "category": "Outerwear",
+    "image": "Structured Linen Blazer.png",
+    "description": "A structured linen blazer defined by clean tailoring and understated elegance.",
+    "colors": [
+      "ALABASTER",
+      "BLACK"
+    ],
+    "displayColor": "ALABASTER",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40",
+      "EU 42"
+    ],
+    "newProduct": true
+  },
+  {
+    "id": 2,
+    "name": "Fluid Silk Blouse",
+    "price": 280.0,
+    "category": "Shirts",
+    "image": "Fluid Silk Blouse.png",
+    "description": "A fluid silk blouse with a relaxed silhouette and refined finish.",
+    "colors": [
+      "IVORY",
+      "BLACK"
+    ],
+    "displayColor": "IVORY",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": true
+  },
+  {
+    "id": 3,
+    "name": "Wide-Leg Wool Trousers",
+    "price": 340.0,
+    "category": "Jeans",
+    "image": "Wide-Leg Wool Trousers.png",
+    "description": "Wide-leg wool trousers designed for a polished, effortless silhouette.",
+    "colors": [
+      "CHARCOAL",
+      "BLACK"
+    ],
+    "displayColor": "CHARCOAL",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40",
+      "EU 42"
+    ],
+    "newProduct": true
+  },
+  {
+    "id": 4,
+    "name": "Unstructured Cashmere Coat",
+    "price": 850.0,
+    "category": "Outerwear",
+    "image": "Unstructured Cashmere Coat.png",
+    "description": "An unstructured cashmere coat balancing softness, warmth and quiet luxury.",
+    "colors": [
+      "CAMEL",
+      "BLACK"
+    ],
+    "displayColor": "CAMEL",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": true
+  },
+  {
+    "id": 5,
+    "name": "Classic Silk Blouse",
+    "price": 245.0,
+    "category": "Shirts",
+    "image": "Classic Silk Blouse.jpg",
+    "description": "A classic silk blouse with an elegant everyday silhouette.",
+    "colors": [
+      "IVORY"
+    ],
+    "displayColor": "IVORY",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 6,
+    "name": "Tailored Wool Trousers",
+    "price": 320.0,
+    "category": "Jeans",
+    "image": "Tailored Wool Trousers.jpg",
+    "description": "Tailored wool trousers with a precise, timeless cut.",
+    "colors": [
+      "CHARCOAL"
+    ],
+    "displayColor": "CHARCOAL",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40",
+      "EU 42"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 7,
+    "name": "Cashmere Knit",
+    "price": 450.0,
+    "category": "Outerwear",
+    "image": "cashmere.jpg",
+    "description": "A soft cashmere knit made for understated layering.",
+    "colors": [
+      "OAT",
+      "BLACK"
+    ],
+    "displayColor": "OAT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 8,
+    "name": "Leather Tote",
+    "price": 680.0,
+    "category": "Accessories",
+    "image": "leather.png",
+    "description": "A refined leather tote designed for everyday function.",
+    "colors": [
+      "BLACK",
+      "TAN"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 9,
+    "name": "Pleated Silk Trouser",
+    "price": 360.0,
+    "category": "Jeans",
+    "image": "pleated silk trouser.png",
+    "description": "Fluid pleated silk trousers with an elegant wide-leg silhouette.",
+    "colors": [
+      "IVORY",
+      "BLACK"
+    ],
+    "displayColor": "IVORY",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 10,
+    "name": "Tailored Wool Coat",
+    "price": 780.0,
+    "category": "Outerwear",
+    "image": "tailored wool coat.png",
+    "description": "A tailored wool coat with a clean, timeless finish.",
+    "colors": [
+      "CAMEL",
+      "CHARCOAL"
+    ],
+    "displayColor": "CAMEL",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 11,
+    "name": "Cashmere Turtleneck",
+    "price": 420.0,
+    "category": "Shirts",
+    "image": "cashmere turtle neck.png",
+    "description": "A refined cashmere turtleneck designed for effortless layering.",
+    "colors": [
+      "OAT",
+      "BLACK"
+    ],
+    "displayColor": "OAT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 12,
+    "name": "Cashmere Sweater",
+    "price": 395.0,
+    "category": "Shirts",
+    "image": "cashmere knit sweater.png",
+    "description": "A soft knit sweater with a relaxed luxury silhouette.",
+    "colors": [
+      "OAT",
+      "IVORY"
+    ],
+    "displayColor": "OAT",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 13,
+    "name": "Silk Midi Dress",
+    "price": 520.0,
+    "category": "Dresses",
+    "image": "silk midi dress.png",
+    "description": "A fluid silk midi dress designed with understated elegance.",
+    "colors": [
+      "BLACK",
+      "IVORY"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 14,
+    "name": "Maxi Dress",
+    "price": 590.0,
+    "category": "Dresses",
+    "image": "maxi dress.jpg",
+    "description": "An effortless maxi dress with a graceful, elongated silhouette.",
+    "colors": [
+      "BLACK"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 15,
+    "name": "Sculptural Mule Heels",
+    "price": 390.0,
+    "category": "Shoes",
+    "image": "sculptural mule heals.png",
+    "description": "Sculptural mule heels with a refined modern shape.",
+    "colors": [
+      "BLACK",
+      "TAN"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 16,
+    "name": "Flat Sandals",
+    "price": 240.0,
+    "category": "Shoes",
+    "image": "flat sandal.jpg",
+    "description": "Minimal flat sandals designed for effortless everyday wear.",
+    "colors": [
+      "TAN",
+      "BLACK"
+    ],
+    "displayColor": "TAN",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 17,
+    "name": "Structured Leather Tote",
+    "price": 720.0,
+    "category": "Accessories",
+    "image": "structured leather tote.png",
+    "description": "A structured leather tote with a polished architectural form.",
+    "colors": [
+      "BLACK",
+      "TAN"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 18,
+    "name": "Hand Purse",
+    "price": 480.0,
+    "category": "Accessories",
+    "image": "hand purse.jpg",
+    "description": "A compact leather hand purse with an understated finish.",
+    "colors": [
+      "BLACK",
+      "TAN"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 19,
+    "name": "Pleated Skirt",
+    "price": 310.0,
+    "category": "Dresses",
+    "image": "pleated.png",
+    "description": "A softly pleated skirt with an elegant flowing movement.",
+    "colors": [
+      "BLACK",
+      "IVORY"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 20,
+    "name": "Wide-Leg Pant",
+    "price": 330.0,
+    "category": "Jeans",
+    "image": "wide leg pant.png",
+    "description": "Wide-leg trousers with a relaxed, tailored finish.",
+    "colors": [
+      "CHARCOAL",
+      "BLACK"
+    ],
+    "displayColor": "CHARCOAL",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40",
+      "EU 42"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 21,
+    "name": "Classic Blazer",
+    "price": 560.0,
+    "category": "Outerwear",
+    "image": "blazer.png",
+    "description": "A classic blazer with a clean tailored silhouette.",
+    "colors": [
+      "BLACK",
+      "CHARCOAL"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "EU 36",
+      "EU 38",
+      "EU 40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 22,
+    "name": "Black Knit Sweater",
+    "price": 360.0,
+    "category": "Shirts",
+    "image": "black sweater.jpg",
+    "description": "A versatile black knit sweater for quiet everyday dressing.",
+    "colors": [
+      "BLACK"
+    ],
+    "displayColor": "BLACK",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 23,
+    "name": "Leather Sandals",
+    "price": 260.0,
+    "category": "Shoes",
+    "image": "sandal.png",
+    "description": "Minimal leather sandals with a refined everyday shape.",
+    "colors": [
+      "TAN",
+      "BLACK"
+    ],
+    "displayColor": "TAN",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "newProduct": false
+  },
+  {
+    "id": 24,
+    "name": "Tote Bag",
+    "price": 620.0,
+    "category": "Accessories",
+    "image": "tote.jpg",
+    "description": "An everyday tote with a spacious, timeless silhouette.",
+    "colors": [
+      "TAN",
+      "BLACK"
+    ],
+    "displayColor": "TAN",
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "newProduct": false
+  }
+]
