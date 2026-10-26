@@ -1,0 +1,88 @@
+.font-serif {
+    font-family: "Playfair Display", serif;
+}
+
+.font-sans,
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+}
+
+.nav-link {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 7.2px;
+}
+
+.btn-return {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+}
+
+label {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+}
+
+.btn-dark,
+.btn-outline-dark {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.summary-item-image {
+    width: 64px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.summary-item-name {
+    font-family: "Playfair Display", serif;
+}
+
+.summary-item-details {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #6c757d;
+}
+
+.summary-item-price {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #212529;
+}
+
+.order-summary-box {
+    top: 90px;
+}
+
+footer .footer-brand {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+footer .footer-subtext {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+footer .footer-link {
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    transition: color 0.2s ease-in-out;
+}
+
+footer .footer-link:hover {
+    color: #000000 !important;
+}
+
+footer .footer-copyright {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
